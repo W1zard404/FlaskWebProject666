@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='registration.css') }}">
+    <title>udo &dash; registration</title>
+</head>
+<body>
+    <main class="main">
+        <div class="form-container">
+            <form action="/register" method="post">
+                <h1 class="form__header">Registration</h1>
+                <div class="form__fields">
+                    <div class="form__field">
+                        <input class="form__input" name="email" type="email" placeholder="email" required>
+                    </div>
+                    <div class="form__field">
+                        <input class="form__input" name="password" type="password" placeholder="password" required>
+                    </div>
+                    <div class="form__field">
+                        <input class="form__input" name="confirm_password" type="password" placeholder="confirm" required>
+                    </div>
+                </div>
+                <div class="form__actions">
+                    <a class="form__login-link buttoned-link" href="login.html">log in</a>
+                    <button class="form__button button" type="submit">register</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

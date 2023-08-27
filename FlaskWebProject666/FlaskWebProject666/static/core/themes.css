@@ -1,0 +1,24 @@
+
+:root {
+    --body-bg: #F8F8F8;
+
+    --button-bg: #515CC6;
+    --button-hover-bg: #3C47A3;
+    --button-color: #FFFFFF;
+    --button-fz: var(--text-fz);
+    --button-fw: 500;
+
+    --header-color: #0E0E11;
+    --header-fz: 32px;
+    --header-fw: 700;
+
+    --text-color: #575767;
+    --text-fz: 18px;
+    --text-fw: 500;
+
+    --small-color: #575767;
+    --small-fz: 14px;
+    --small-fw: 600;
+
+    --border-color: #D0D0D0;
+}

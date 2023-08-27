@@ -1,0 +1,20 @@
+@import url(../core/fonts.css);
+@import url(../core/themes.css);
+
+.button {
+    font-family: Inter;
+    padding: 6px 10px;
+
+    border-radius: 5px;
+    border: none;
+    background: var(--button-bg);
+    cursor: pointer;
+    color: var(--button-color);
+    font-size: var(--button-fz);
+    font-weight: var(--button-fw);
+
+    transition: .3s ease-in-out background;
+}
+.button:hover {
+    background: var(--button-hover-bg);
+}

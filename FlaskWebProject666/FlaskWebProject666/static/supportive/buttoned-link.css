@@ -1,0 +1,20 @@
+@import url(../core/fonts.css);
+@import url(../core/themes.css);
+
+.buttoned-link {
+    font-family: Inter;
+    padding: 6px 10px;
+
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--text-color);
+    font-size: var(--text-fz);
+    font-weight: var(--text-fw);
+    border: 1px solid var(--border-color);
+
+    transition: .3s ease-in-out background;
+}
+.buttoned-link:hover {
+    background: #f0f0f0;
+}
